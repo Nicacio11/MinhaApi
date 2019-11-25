@@ -21,9 +21,9 @@ namespace Nicacio.MinhaApi.Api.Controllers
 			var retorno = repositorio.GetAll();
 			return retorno;
 		}
-		public Aluno Get(int id)
+		public Aluno Get(int?id)
 		{
-			return repositorio.GetById(id);
+			return repositorio.GetById(id.Value);
 		}
 
     }
