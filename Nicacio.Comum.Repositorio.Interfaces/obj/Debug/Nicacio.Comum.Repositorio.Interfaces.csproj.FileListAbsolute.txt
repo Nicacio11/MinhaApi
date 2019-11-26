@@ -1,0 +1,5 @@
+C:\Users\vitor\source\repos\Nicacio.MinhaApi\Nicacio.Comum.Repositorio.Interfaces\bin\Debug\Nicacio.Comum.Repositorio.Interfaces.dll
+C:\Users\vitor\source\repos\Nicacio.MinhaApi\Nicacio.Comum.Repositorio.Interfaces\bin\Debug\Nicacio.Comum.Repositorio.Interfaces.pdb
+C:\Users\vitor\source\repos\Nicacio.MinhaApi\Nicacio.Comum.Repositorio.Interfaces\obj\Debug\Nicacio.Comum.Repositorio.Interfaces.csprojAssemblyReference.cache
+C:\Users\vitor\source\repos\Nicacio.MinhaApi\Nicacio.Comum.Repositorio.Interfaces\obj\Debug\Nicacio.Comum.Repositorio.Interfaces.dll
+C:\Users\vitor\source\repos\Nicacio.MinhaApi\Nicacio.Comum.Repositorio.Interfaces\obj\Debug\Nicacio.Comum.Repositorio.Interfaces.pdb

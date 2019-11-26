@@ -1,0 +1,13 @@
+C:\Users\vitor\source\repos\Nicacio.MinhaApi\Nicacio.Comum.Repositorio.EF\bin\Debug\Nicacio.Comum.Repositorio.EF.dll.config
+C:\Users\vitor\source\repos\Nicacio.MinhaApi\Nicacio.Comum.Repositorio.EF\bin\Debug\Nicacio.Comum.Repositorio.EF.dll
+C:\Users\vitor\source\repos\Nicacio.MinhaApi\Nicacio.Comum.Repositorio.EF\bin\Debug\Nicacio.Comum.Repositorio.EF.pdb
+C:\Users\vitor\source\repos\Nicacio.MinhaApi\Nicacio.Comum.Repositorio.EF\bin\Debug\EntityFramework.dll
+C:\Users\vitor\source\repos\Nicacio.MinhaApi\Nicacio.Comum.Repositorio.EF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vitor\source\repos\Nicacio.MinhaApi\Nicacio.Comum.Repositorio.EF\bin\Debug\Nicacio.Comum.Repositorio.Interfaces.dll
+C:\Users\vitor\source\repos\Nicacio.MinhaApi\Nicacio.Comum.Repositorio.EF\bin\Debug\Nicacio.Comum.Repositorio.Interfaces.pdb
+C:\Users\vitor\source\repos\Nicacio.MinhaApi\Nicacio.Comum.Repositorio.EF\bin\Debug\EntityFramework.xml
+C:\Users\vitor\source\repos\Nicacio.MinhaApi\Nicacio.Comum.Repositorio.EF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vitor\source\repos\Nicacio.MinhaApi\Nicacio.Comum.Repositorio.EF\obj\Debug\Nicacio.Comum.Repositorio.EF.csprojAssemblyReference.cache
+C:\Users\vitor\source\repos\Nicacio.MinhaApi\Nicacio.Comum.Repositorio.EF\obj\Debug\Nicacio.Comum.Repositorio.EF.csproj.CopyComplete
+C:\Users\vitor\source\repos\Nicacio.MinhaApi\Nicacio.Comum.Repositorio.EF\obj\Debug\Nicacio.Comum.Repositorio.EF.dll
+C:\Users\vitor\source\repos\Nicacio.MinhaApi\Nicacio.Comum.Repositorio.EF\obj\Debug\Nicacio.Comum.Repositorio.EF.pdb

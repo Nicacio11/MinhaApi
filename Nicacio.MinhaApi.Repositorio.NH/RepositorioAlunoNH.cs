@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Nicacio.MinhaApi.Repositorio.NH
 {
-    public class RepositorioAlunoNH : RepositorioMinhaApiNH<Aluno, int>
+    public class RepositorioAlunoNH : RepositorioMinhaApiNH<AlunoNH, int>
     {
     }
 }
