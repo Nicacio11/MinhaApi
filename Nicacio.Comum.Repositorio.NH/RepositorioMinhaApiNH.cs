@@ -21,6 +21,7 @@ namespace Nicacio.Comum.Repositorio.NH
 				{
 					try
 					{
+						//session.Merge(dominio);
 						session.Delete(dominio);
 						transaction.Commit();
 					}
@@ -38,24 +39,7 @@ namespace Nicacio.Comum.Repositorio.NH
 		public void DeleteById(TKey id)
 		{
 			TDominio dominio = GetById(id);
-			using (ISession session = FluentySessionFactory.AbrirSession())
-			{
-				using (ITransaction transaction = session.BeginTransaction())
-				{
-					try
-					{
-						session.Delete(dominio);
-						transaction.Commit();
-					}
-					catch (Exception)
-					{
-						if (!transaction.WasCommitted)
-							transaction.Rollback();
-						throw;
-					}
-				}
-
-			}
+			Delete(dominio);
 		}
 
 		public List<TDominio> GetAll(Expression<Func<TDominio, bool>> expression = null)
@@ -107,6 +91,7 @@ namespace Nicacio.Comum.Repositorio.NH
 				{
 					try
 					{
+						//session.Merge(dominio);
 						session.Update(dominio);
 						transaction.Commit();
 					}

@@ -20,7 +20,7 @@ namespace Nicacio.Comum.Repositorio.EF
 		public void Delete(TDominio dominio)
 		{
 			contexto.Set<TDominio>().Attach(dominio);
-			contexto.Entry(dominio).State = EntityState.Modified;
+			contexto.Entry(dominio).State = EntityState.Deleted;
 			contexto.SaveChanges();
 		}
 
