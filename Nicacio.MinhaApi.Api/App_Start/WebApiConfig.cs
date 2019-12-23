@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
+using Nicacio.MinhaApi.Api.Formatters;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,7 +25,7 @@ namespace Nicacio.MinhaApi.Api
             //removendo o formatter
             //var xmlFormatter = config.Formatters.XmlFormatter;
             //config.Formatters.Remove(xmlFormatter);
-
+            config.Formatters.Add(new CsvMediaTypeFormatter());
 
 			// Web API routes
 			config.MapHttpAttributeRoutes();
