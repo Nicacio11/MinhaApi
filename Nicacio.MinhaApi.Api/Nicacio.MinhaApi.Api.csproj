@@ -187,10 +187,16 @@
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="DTO\AlunoDTO.cs" />
     <Compile Include="Filters\ApplyModelValidationAttribute.cs" />
+    <Compile Include="Filters\FillResponseWithHATEOASAttribute.cs" />
     <Compile Include="Formatters\CsvMediaTypeFormatter.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="HATEOAS\Helper\RestResourceBuilder.cs" />
+    <Compile Include="HATEOAS\ResourceBuilder.Impl\AlunoDTOResourceBuilder.cs" />
+    <Compile Include="HATEOAS\ResourceBuilder.Interface\IResourceBuilder.cs" />
+    <Compile Include="HATEOAS\RestLink.cs" />
+    <Compile Include="HATEOAS\RestResource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

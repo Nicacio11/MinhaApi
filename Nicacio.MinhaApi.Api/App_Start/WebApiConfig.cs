@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
+using Nicacio.MinhaApi.Api.Filters;
 using Nicacio.MinhaApi.Api.Formatters;
 using System;
 using System.Collections.Generic;
@@ -26,7 +27,7 @@ namespace Nicacio.MinhaApi.Api
             //var xmlFormatter = config.Formatters.XmlFormatter;
             //config.Formatters.Remove(xmlFormatter);
             config.Formatters.Add(new CsvMediaTypeFormatter());
-
+            config.Filters.Add(new FillResponseWithHATEOASAttribute());
 			// Web API routes
 			config.MapHttpAttributeRoutes();
 
