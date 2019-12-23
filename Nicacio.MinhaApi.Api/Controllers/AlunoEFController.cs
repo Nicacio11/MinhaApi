@@ -26,6 +26,9 @@ namespace Nicacio.MinhaApi.Api.Controllers
         /// <returns></returns>
 
         //public IEnumerable<Aluno> Get()
+
+        //fator qualitativo é utilizado para definir qual o formato definido para retorno xml ou json
+        //quanto mais perto de 1 mais qualitativo
         public IHttpActionResult Get()
         {
             var retorno = AutoMapperManager.Instance.Mapper.Map<List<Aluno>, List<AlunoDTO>>(repositorio.GetAll());
