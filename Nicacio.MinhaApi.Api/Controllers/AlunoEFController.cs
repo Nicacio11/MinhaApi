@@ -14,6 +14,7 @@ using System.Web.Http;
 
 namespace Nicacio.MinhaApi.Api.Controllers
 {
+    [RoutePrefix("api/Aluno")]
     public class AlunoEFController : ApiController
     {
         private IRepositorioMinhaApi<Aluno, int> repositorio = new RepositorioAlunoEF(new Contexto());
@@ -24,9 +25,6 @@ namespace Nicacio.MinhaApi.Api.Controllers
         /// e a sintaxe é mais clara
         /// </summary>
         /// <returns></returns>
-
-        //public IEnumerable<Aluno> Get()
-
         //fator qualitativo é utilizado para definir qual o formato definido para retorno xml ou json
         //quanto mais perto de 1 mais qualitativo
         public IHttpActionResult Get()
@@ -48,31 +46,23 @@ namespace Nicacio.MinhaApi.Api.Controllers
             //return Request.CreateResponse(HttpStatusCode.NotFound);
             AlunoDTO dto = AutoMapperManager.Instance.Mapper.Map<Aluno, AlunoDTO>(aluno);
 
-            return Content(HttpStatusCode.Found, dto);
+            return Content(HttpStatusCode.OK, dto);
         }
 
+        [Route("por-nome/{nomeAluno}")]
+        public IHttpActionResult Get(string nomeAluno)
+        {
+            List<AlunoDTO> dtos = AutoMapperManager.Instance.Mapper
+                .Map<List<Aluno>, List<AlunoDTO>>(repositorio.GetAll(x => x.Nome.ToLower().Contains(nomeAluno)));
+
+            return Ok(dtos);
+        }
         /// <summary>
         /// FromBody é um decorator indicando que a leitura do objeto será feita apartir do corpo da requisição
         /// o model binder vai fazer com que seja associado com o objeto
         /// </summary>
         /// <param name="aluno"></param>
         /// <returns></returns>
-        //public HttpResponseMessage Post([FromBody]Aluno aluno)
-        //{
-        //	if (aluno == null)
-        //		return Request.CreateResponse(HttpStatusCode.BadRequest);
-        //	try
-        //	{
-        //		repositorio.Inserir(aluno);
-        //		return Request.CreateResponse(HttpStatusCode.Created);
-        //	}
-        //	catch (Exception ex)
-        //	{
-
-        //		return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
-        //	}
-        //}
-
         [ApplyModelValidation]
         public IHttpActionResult Post([FromBody]AlunoDTO dto)
         {
