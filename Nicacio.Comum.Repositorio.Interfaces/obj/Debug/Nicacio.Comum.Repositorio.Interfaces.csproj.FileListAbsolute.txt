@@ -3,3 +3,8 @@ C:\Users\vitor\source\repos\Nicacio.MinhaApi\Nicacio.Comum.Repositorio.Interface
 C:\Users\vitor\source\repos\Nicacio.MinhaApi\Nicacio.Comum.Repositorio.Interfaces\obj\Debug\Nicacio.Comum.Repositorio.Interfaces.csprojAssemblyReference.cache
 C:\Users\vitor\source\repos\Nicacio.MinhaApi\Nicacio.Comum.Repositorio.Interfaces\obj\Debug\Nicacio.Comum.Repositorio.Interfaces.dll
 C:\Users\vitor\source\repos\Nicacio.MinhaApi\Nicacio.Comum.Repositorio.Interfaces\obj\Debug\Nicacio.Comum.Repositorio.Interfaces.pdb
+C:\_repositorios\MinhaApi\Nicacio.Comum.Repositorio.Interfaces\bin\Debug\Nicacio.Comum.Repositorio.Interfaces.dll
+C:\_repositorios\MinhaApi\Nicacio.Comum.Repositorio.Interfaces\bin\Debug\Nicacio.Comum.Repositorio.Interfaces.pdb
+C:\_repositorios\MinhaApi\Nicacio.Comum.Repositorio.Interfaces\obj\Debug\Nicacio.Comum.Repositorio.Interfaces.csprojAssemblyReference.cache
+C:\_repositorios\MinhaApi\Nicacio.Comum.Repositorio.Interfaces\obj\Debug\Nicacio.Comum.Repositorio.Interfaces.dll
+C:\_repositorios\MinhaApi\Nicacio.Comum.Repositorio.Interfaces\obj\Debug\Nicacio.Comum.Repositorio.Interfaces.pdb

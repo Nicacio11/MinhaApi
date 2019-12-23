@@ -3,3 +3,8 @@ C:\Users\vitor\source\repos\Nicacio.MinhaApi\Nicacio.MinhaApi.Dominio\bin\Debug\
 C:\Users\vitor\source\repos\Nicacio.MinhaApi\Nicacio.MinhaApi.Dominio\obj\Debug\Nicacio.MinhaApi.Dominio.csprojAssemblyReference.cache
 C:\Users\vitor\source\repos\Nicacio.MinhaApi\Nicacio.MinhaApi.Dominio\obj\Debug\Nicacio.MinhaApi.Dominio.dll
 C:\Users\vitor\source\repos\Nicacio.MinhaApi\Nicacio.MinhaApi.Dominio\obj\Debug\Nicacio.MinhaApi.Dominio.pdb
+C:\_repositorios\MinhaApi\Nicacio.MinhaApi.Dominio\bin\Debug\Nicacio.MinhaApi.Dominio.dll
+C:\_repositorios\MinhaApi\Nicacio.MinhaApi.Dominio\bin\Debug\Nicacio.MinhaApi.Dominio.pdb
+C:\_repositorios\MinhaApi\Nicacio.MinhaApi.Dominio\obj\Debug\Nicacio.MinhaApi.Dominio.csprojAssemblyReference.cache
+C:\_repositorios\MinhaApi\Nicacio.MinhaApi.Dominio\obj\Debug\Nicacio.MinhaApi.Dominio.dll
+C:\_repositorios\MinhaApi\Nicacio.MinhaApi.Dominio\obj\Debug\Nicacio.MinhaApi.Dominio.pdb

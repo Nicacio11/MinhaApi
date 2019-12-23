@@ -12,7 +12,7 @@ namespace Nicacio.MinhaApi.AcessoDados.EF
     public class Contexto : DbContext
     {
 		public DbSet<Aluno> Alunos { get; set; }
-		public Contexto() : base("Contexto")
+		public Contexto() : base("ContextoJob")
 		{
 			Configuration.ProxyCreationEnabled = false;
 			Configuration.LazyLoadingEnabled = false;
