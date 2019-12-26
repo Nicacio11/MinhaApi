@@ -14,6 +14,20 @@ using System.Web.Http;
 
 namespace Nicacio.MinhaApi.Api.Controllers
 {
+    /// <summary>
+    /// Microsoft.Owin.Host.SystemWeb
+    /// Microsoft.AspNet.WebApi.Owin
+    /// Microsoft.Owin.Security.OAuth
+    /// Microsoft.Owin.Cors
+    /// para conseguir o token é preciso conseguir o token em /token passando usuário senha e o grant type
+    /// no www-form_urlconcoded
+    /// utilizando postman ou yarc
+    /// username - 123
+    /// password - 123
+    /// grant_type - password
+    /// pega o token e adiciona novo header com key Authorization e Value o token informado
+    /// </summary>
+    [Authorize]
     [RoutePrefix("api/Aluno")]
     public class AlunoEFController : ApiController
     {

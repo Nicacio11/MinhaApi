@@ -67,7 +67,7 @@ namespace Nicacio.MinhaApi.Api.Formatters
             foreach (string property in GetPropertyName(item.GetType()))
             {
                 var propertyValue = item.GetType().GetProperty(property).GetValue(item);
-                if (propertyValue != null) ;
+                if (propertyValue != null) 
                     value += propertyValue.ToString();
                 value += ";";
             }
